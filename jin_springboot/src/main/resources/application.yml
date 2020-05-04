@@ -1,0 +1,43 @@
+server:
+  port: 8082
+
+#  配置普通数据
+name: huangjing
+
+#配置对象数据
+
+persion:
+  name: jin
+  age: 18
+  sex: nan
+
+
+#行内对象配置
+Persions: {name: jin,age: 19,sex: nv}
+
+#配置数组,集合
+city:
+  - shanghai
+  - beijin
+  - tianjin
+  - henan
+
+citys: [shanghai,beijin,tianjin,henan]
+
+#配置数据，集合（对象数据）
+student:
+  - name: jin
+    age: 19
+    addr: henan
+  - name: jnx
+    age: 19
+    addr: beijin
+
+students: [{name: jin,age: 18,addr: henan},{name: jinx,age: 19,addr: shanghai}]
+
+# map 配置方式
+map:
+  key1: value1
+  key2: value2
+
+
